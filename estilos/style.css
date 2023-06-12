@@ -662,5 +662,10 @@ header, .navbar{
         margin-bottom: 30px;
     }
 
-    
+
+    /* data */
+
+    .circle-box{
+        width: 50%;
+    }
 }
