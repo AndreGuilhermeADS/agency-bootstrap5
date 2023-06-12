@@ -647,31 +647,20 @@ header, .navbar{
         display: none;
     }
 
-    #mainSlider .carousel-caption h2 {
-        margin-top: 10px ;
-        margin-bottom: 40px;
-        font-size: 18px;
+    .carousel-caption .main-btn {
+        font-size: 14px;
     }
 
-     #img-item-1 {
-        background-image: var("../img/andre.png") !important;
-        background-size: cover !important;
-        background-position: center !important;
-    }
-
-    .main-btn {
-        font-size: 12px;
-    }
-   
-   
-    /* about */
+    /* About */
 
     .main-title {
         font-size: 30px;
     }
 
     #about-area img {
-        margin-top: 0px;
+        margin-top: 0;
         margin-bottom: 30px;
     }
+
+    
 }
