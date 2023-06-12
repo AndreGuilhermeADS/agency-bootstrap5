@@ -731,5 +731,10 @@ header, .navbar{
              
     }
 
+    /* Contact */
 
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
 }
