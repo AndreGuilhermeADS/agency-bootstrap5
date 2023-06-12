@@ -668,4 +668,25 @@ header, .navbar{
     .circle-box{
         width: 50%;
     }
+
+    /* team */
+
+    #team-area .col-md-2 {
+       width: 50%;
+       margin-bottom: 30px;
+    }
+
+    /* apply*/
+
+    #apply-area {
+        height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    #pattern-img {
+        margin-top: -50px;
+    }
 }
