@@ -629,11 +629,11 @@ header, .navbar{
     }
 
    #mainSlider{
-        margin-top: 70px;
+        margin-top: 0px;
    }
 
    #mainSlider .carousel-caption{
-     top: 20%;
+     top: 40%;
    }
 
     #mainSlider .carousel-caption p{
@@ -647,7 +647,7 @@ header, .navbar{
     }
 
      #img-item-1 {
-        background-image: var('../img/andre.png') !important;
+        background-image: var("../img/andre.png") !important;
         background-size: cover !important;
         background-position: center !important;
     }
