@@ -70,6 +70,11 @@ header, .navbar{
     top: 25%;
 }
 
+/* #mainSlider img{
+    background-size: cover;
+    background-position: center;
+} */
+
 #mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -506,14 +511,12 @@ header, .navbar{
         padding: 20px 0;
     }
 
-    .main-title{
-        padding-top: 10px;
-    }
+   
 
     /* Slider */
 
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
-        height: 90vh;
+        height: auto;
     
     }
 
@@ -523,9 +526,14 @@ header, .navbar{
     
     #mainSlider .carousel-caption p{
         font-size: 18px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
-   
+    
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
     #mainSlider .carousel-caption {
         top: 30%;
     }
@@ -612,29 +620,28 @@ header, .navbar{
     #call-area #call-btn {
         margin-left: 10px;
     }
-
+}
 
    
-}
+
 
 @media(max-width: 425px){
 
     /* Slider */
-    .carousel-inner{
-        height: 10%;
-    }
 
-    #mainSlider .carousel-inner, #mainSlider .carousel-item {
-        height: 50vh;
-    }
 
    #mainSlider{
-        margin-top: 0px;
+        margin-top: 90px;
    }
 
    #mainSlider .carousel-caption{
-     top: 40%;
+        top: 5%;
    }
+
+   #mainSlider .carousel-caption h2 {
+        margin-bottom: 40px;
+        font-size: 18px;
+ }
 
     #mainSlider .carousel-caption p{
         display: none;
@@ -650,6 +657,10 @@ header, .navbar{
         background-image: var("../img/andre.png") !important;
         background-size: cover !important;
         background-position: center !important;
+    }
+
+    .main-btn {
+        font-size: 12px;
     }
    
    
